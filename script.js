@@ -44,10 +44,10 @@ function submitPassword() {
 
     // Check if the input matches the encrypted passcode
     if (password === encryptedPasscode) {
-        result.style.color = "green";
-        result.textContent = `Passcode correct! Here is the flag${flag}`;
+        result.style.color = "black";
+        result.textContent = `flag${flag}`;
     } else {
-        result.style.color = "red";
-        result.textContent = "Incorrect passcode. Try again.";
+        result.style.color = "black";
+        result.textContent = "Incorrect.";
     }
 }
